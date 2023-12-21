@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDF Viewer</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
         
-        html, body{
+        html, body {
             width: 100%;
             height: 100%;
         }
@@ -21,11 +21,13 @@
             font-family: Arial, sans-serif;
             text-align: center;
         }
+
         #pdf-container {
             display: block;
             width: 100%;
             height: 100vh; /* Set an initial height or adjust as needed */
         }
+
         #pdf-viewer {
             width: 100%;
             height: 100%;
@@ -36,7 +38,7 @@
 
     <!-- Container to display the PDF -->
     <div id="pdf-container">
-        <embed id="pdf-viewer" type="application/pdf" src="Aisha Muhammad Ibrahim Profile.pdf#toolbar=0" /> <!-- Replace with your actual PDF file path -->
+        <iframe id="pdf-viewer" src="Aisha Muhammad Ibrahim Profile.pdf#toolbar=0"></iframe> <!-- Replace with your actual PDF file path -->
     </div>
 
 </body>
