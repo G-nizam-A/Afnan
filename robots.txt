@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /cgi-bin/
+Sitemap: https://aishamuhammedibrahimasilifoundation.com//sitemap.xml
+Sitemap: https://www.aishamuhammedibrahimasilifoundation.com//sitemap.xml
