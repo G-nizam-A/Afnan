@@ -4483,7 +4483,8 @@ fieldset:disabled .btn {
 .btn-black-pearl {
     color: #fff;
     background-color: #1c1d1e;
-    border-color: #1c1d1e
+    border-color: #1c1d1e;
+    transition: all .3s ease-in
 }
 
 .btn-black-pearl:hover {
@@ -5550,7 +5551,7 @@ fieldset:disabled .btn {
 .btn-outline-white:active,
 .btn-outline-white.active,
 .btn-outline-white.dropdown-toggle.show {
-    color: #000;
+    color: #000 !important;
     background-color: #fff;
     border-color: #fff
 }
@@ -11423,7 +11424,9 @@ fieldset:disabled .btn {
 .text-reset {
     color: inherit !important
 }
-
+.text-justify{
+    text-align: justify;
+}
 .lh-1 {
     line-height: 1 !important
 }

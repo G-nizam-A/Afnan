@@ -321,13 +321,13 @@ body {
 }
 
 .site-footer .footer-widgets {
-  padding-top: 80px;
-  padding-bottom: 20px;
+ padding-top: 50px;
+  /*  padding-bottom: 20px; */
 }
 
 @media (min-width: 992px) {
   .site-footer .footer-widgets {
-    padding-top: 100px;
+    /* padding-top: 100px; */
   }
 }
 
@@ -413,8 +413,8 @@ body {
 
 @media (min-width: 992px) {
   .site-footer .footer-bottom-area {
-    padding-top: 34px;
-    padding-bottom: 34px;
+    /* padding-top: 34px;
+    padding-bottom: 34px; */
   }
 }
 
