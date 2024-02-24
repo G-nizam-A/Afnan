@@ -1,5 +1,64 @@
-<sitemapindex xmlns="http://www.google.com/schemas/sitemap/0.84">
-    <sitemap>
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
         <loc>https://www.aishamuhammedibrahimasilifoundation.com/</loc>
-    </sitemap>
-</sitemapindex>
+        <lastmod>2024-02-24T13:52:49+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://www.aishamuhammedibrahimasilifoundation.com/manpower_supply.html</loc>
+        <lastmod>2024-02-24T13:52:49+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.aishamuhammedibrahimasilifoundation.com/materials_supply.html</loc>
+        <lastmod>2024-02-24T13:52:49+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.aishamuhammedibrahimasilifoundation.com/scaffolding.html</loc>
+        <lastmod>2024-02-24T13:52:49+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.aishamuhammedibrahimasilifoundation.com/machinery_vehicles.html</loc>
+        <lastmod>2024-02-24T13:52:49+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.aishamuhammedibrahimasilifoundation.com/heavy_equipments.html</loc>
+        <lastmod>2024-02-24T13:52:49+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.aishamuhammedibrahimasilifoundation.com/building_materials.html</loc>
+        <lastmod>2024-02-24T13:52:49+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.aishamuhammedibrahimasilifoundation.com/aboutus.html</loc>
+        <lastmod>2024-02-24T13:52:49+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.aishamuhammedibrahimasilifoundation.com/index.html</loc>
+        <lastmod>2024-02-24T13:52:49+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.aishamuhammedibrahimasilifoundation.com/services.html</loc>
+        <lastmod>2024-02-24T13:52:49+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.aishamuhammedibrahimasilifoundation.com/operation.html</loc>
+        <lastmod>2024-02-24T13:52:49+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.aishamuhammedibrahimasilifoundation.com/contact.html</loc>
+        <lastmod>2024-02-24T13:52:49+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+</urlset>
