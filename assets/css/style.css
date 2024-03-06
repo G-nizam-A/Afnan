@@ -307,7 +307,7 @@ body {
 # Footer
 --------------------------------------------------------------*/
 .site-footer {
-  background-color: #1C1D1E;
+  background-color: #000;
 }
 
 @media (min-width: 992px) {
@@ -382,7 +382,7 @@ body {
 .site-footer .footer-bottom-area {
   padding-top: 50px;
   padding-bottom: 50px;
-  color: #747474;
+  color: #969696;
   padding-top: 0px;
 }
 
@@ -1646,7 +1646,7 @@ body.has-no-comments .comment-respond {
 
 @media (min-width: 992px) {
   .home-bg {
-    background-image: url("../images/home/h1.jpg");
+    background-image: url("../images/home/h1.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1655,7 +1655,7 @@ body.has-no-comments .comment-respond {
 
 @media (min-width: 992px) {
   .home-bg-1 {
-    background-image: url("../images/home/bgi2.jpg");
+    background-image: url("../images/home/h1.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1663,7 +1663,7 @@ body.has-no-comments .comment-respond {
 
   }
   .home-bg-2 {
-    background-image: url("../images/home/homeslide-04.jpg");
+    background-image: url("../images/home/homeslide-04.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1673,7 +1673,7 @@ body.has-no-comments .comment-respond {
 
 @media (min-width: 992px) {
   .about-bg-1 {
-    background-image: url("../images/home/bgi4.jpg");
+    background-image: url("../images/home/bgi4.webp");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -1682,7 +1682,7 @@ body.has-no-comments .comment-respond {
 
 @media (max-width: 991.98px) {
   .home-bg-11 {
-    background-image: url("../images/home/h16.jpg");
+    background-image: url("../images/home/h16.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1692,7 +1692,7 @@ body.has-no-comments .comment-respond {
 
 @media (min-width: 992px) {
   .home-bgi3 {
-    background-image: url("../images/home/bgi3.jpg");
+    background-image: url("../images/home/bgi3.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1702,7 +1702,7 @@ body.has-no-comments .comment-respond {
 
 @media (min-width: 992px) {
   .service-1 {
-    background-image: url("../images/services/service1.jpg");
+    background-image: url("../images/home/test33.webp");
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: center left;
@@ -1711,7 +1711,7 @@ body.has-no-comments .comment-respond {
 
 @media (min-width: 992px) {
   .team-1 {
-    background-image: url("../images/team/teambg.jpg");
+    background-image: url("../images/home/test33.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1720,7 +1720,7 @@ body.has-no-comments .comment-respond {
 
 @media (min-width: 992px) {
   .featured-image {
-    background-image: url("../images/single-project/featured-image.jpg");
+    background-image: url("../images/home/test33.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1730,7 +1730,7 @@ body.has-no-comments .comment-respond {
 
 @media (max-width: 991.98px) {
   .featured-image {
-    background-image: url("../images/single-project/featured-image.jpg");
+    background-image: url("../images/home/test33.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1740,7 +1740,7 @@ body.has-no-comments .comment-respond {
 
 @media (max-width: 767.98px) {
   .featured-image {
-    background-image: url("../images/single-project/featured-image.jpg");
+    background-image: url("../images/home/test33.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1750,7 +1750,7 @@ body.has-no-comments .comment-respond {
 
 @media (min-width: 992px) {
   .featured-image-blog {
-    background-image: url("../images/blog/b1.jpg");
+    background-image: url("../images/home/test33.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

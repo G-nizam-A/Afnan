@@ -3,23 +3,25 @@
 
 <head>
   <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
+  <!-- <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
         'gtm.start':
           new Date().getTime(), event: 'gtm.js'
       }); var f = d.getElementsByTagName(s)[0],
         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-T993V5JR');</script>
+    })(window, document, 'script', 'dataLayer', 'GTM-T993V5JR');</script> -->
   <!-- End Google Tag Manager -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ffda00">
   <!-- favicon-->
   <link rel="shortcut icon" href="assets/images/logo/AMIAF logo.png">
   <!-- Site Title-->
   <title>Aisha Muhammed Ibrahim Asili Foundation</title>
-  <meta data-rh="" name="description"  itemprop="description"
+  <meta data-rh="" name="description" itemprop="description"
     content="Aisha Muhammed Ibrahim Asili Foundation Industrial Services is a rapidly expanding organization based in Jubail city, offering a comprehensive range of engineering support services. Our expertise includes steel fabrication, maintenance manpower supply, trading, and the supply of materials and equipment for rental.">
   <meta data-rh="" name="keywords"
     content="Aisha Muhammed Ibrahim Asili Foundation, Aisha Muhammed Ibrahim Asili Foundation Jubail, Asili Foundation Jubail, Ibrahim Asili Foundation Jubail, Muhammed Ibrahim Asili Foundation Jubail, Asili Foundation , Ibrahim Asili Foundation, Muhammed Ibrahim Asili Foundation, Industrial Services, Engineering Support, Steel Fabrication, Maintenance Manpower Supply, Trading, Material and Equipment Rental, Kingdom of Saudi Arabia, Multi-Team Professionals, Corporate Image, Prestige, Machinery and Vehicles Rental, Heavy Equipment Rental, Building Materials Supply, Aisha Muhammed Ibrahim Asili Foundation, Rapidly Expanding Organization, Highly Qualified Staff, Civil, Mechanical, Instrumental, Engineers, Technicians, Welders, Skilled and Unskilled Workers, Saudi Labour Law, Persistent Success, Professional Consultants, Valued Customers, Jubail City">
@@ -39,7 +41,7 @@
   <!-- Google Fonts-->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;800&amp;family=Roboto&amp;display=swap">
-
+    <link rel="preload" fetchpriority="high" as="image" href="assets/images/home/h1.webp" type="image/webp">
 
   <meta data-rh="" property="og:title" content="Aisha Muhammed Ibrahim Asili Foundation" />
   <meta data-rh="" property="og:description"
@@ -52,16 +54,16 @@
 
 <body>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T993V5JR" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T993V5JR" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript> -->
   <!-- End Google Tag Manager (noscript) -->
   <!-- Navbar-->
   <header class="site-header" itemscope itemtype="https://schema.org/WPHeader">
     <nav class="navbar navbar-expand-lg navbar-light" itemscope itemtype="https://schema.org/SiteNavigationElement">
       <div class="container-fluid px-lg-6 px-md-4 px-3">
-        <a class="navbar-brand" href="#" itemprop="url">
-          <img src="assets/images/logo/AMIAF logo.png" class="attachment-full size-full AMIAF_logo"
-            alt="Aisha Muhammed Ibrahim Asili Foundation AMIAF logo" loading="lazy" itemprop="image">
+        <a class="navbar-brand" href="#" title="AMIAF" >
+          <img loading="lazy" src="assets/images/logo/AMIAF logo.png" class="attachment-full size-full AMIAF_logo"
+            alt="Aisha Muhammed Ibrahim Asili Foundation AMIAF logo" itemprop="image">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,27 +72,33 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mx-auto" itemprop="name">
             <li class="nav-item active">
-              <a class="nav-link btn-link-2" href="#" itemprop="url">Home</a>
+              <a class="nav-link btn-link-2" href="#" title="AMIAF" >Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn-link-2" href="#aboutus" itemprop="url">About us</a>
+              <a class="nav-link btn-link-2" href="#aboutus" >About us</a>
             </li>
             <li class="nav-item dropdown mega_menu_holder services-dropdown">
-              <a class="nav-link btn-link-2" href="#services" itemprop="url">Services</a>
+              <a class="nav-link btn-link-2" href="#services" >Services</a>
               <div class="dropdown-menu dropdown-menu-hover" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="manpower_supply.html" itemprop="url">Manpower Supply</a>
-                <a class="dropdown-item" href="materials_supply.html" itemprop="url">Materials Supply</a>
-                <a class="dropdown-item" href="scaffolding.html" itemprop="url">Scaffolding Material Supply & Erection</a>
-                <a class="dropdown-item" href="machinery_vehicles.html" itemprop="url">Rental of Machinery & Vehicles</a>
-                <a class="dropdown-item" href="heavy_equipments.html" itemprop="url">Rental of Heavy Equipments</a>
-                <a class="dropdown-item" href="building_materials.html" itemprop="url">Building Materials</a>
+                <a class="dropdown-item" href="/manpower_supply.html" title="Manpower Supply" >Manpower
+                  Supply</a>
+                <a class="dropdown-item" href="/materials_supply.html" title="Materials Supply" >Materials
+                  Supply</a>
+                <a class="dropdown-item" href="/scaffolding.html" title="Scaffolding Services" >Scaffolding
+                  Material Supply & Erection</a>
+                <a class="dropdown-item" href="/machinery_vehicles.html" title="Machinery and Vehicles"
+                  >Rental of Machinery & Vehicles</a>
+                <a class="dropdown-item" href="/heavy_equipments.html" title="Heavy Equipments" >Rental of
+                  Heavy Equipments</a>
+                <a class="dropdown-item" href="/building_materials.html" title="Building Materials"
+                  >Building Materials</a>
               </div>
             </li>
             <li class="nav-item mega_menu_holder">
-              <a class="nav-link btn-link-2" href="#operation" itemprop="url">Operations</a>
+              <a class="nav-link btn-link-2" href="#operation" >Operations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn-link-2" href="#contactus" itemprop="url">Contact us</a>
+              <a class="nav-link btn-link-2" href="#contactus" >Contact us</a>
             </li>
           </ul>
           <ul class="nav-modules">
@@ -102,366 +110,373 @@
         </div>
       </div>
     </nav>
-</header>
+  </header>
 
 
   <!-- End Navbar-->
-  <article class="entry"  itemscope itemtype="https://schema.org/WebPage">
+  <article class="entry" itemscope itemtype="https://schema.org/WebPage">
     <!--<div class="entry-content"> -->
-  <!-- head title-->
-  <section class="container-fluid px-0 home-bg bg-black-pearl">
-    <div class="py-lg-9 py-md-7 py-6">
-      <div class="container">
-        <div class="row gx-lg-5">
-          <div class="col-lg-6 d-lg-none">
-            <img src="assets/images/home/h15.jpg" alt="Aisha Muhammed Ibrahim Asili Foundation homr image"  itemprop="image">
-          </div>
-          <div class="col-lg-6 my-lg-3 mt-md-5 mt-5">
-            <h5 class="text-school-yellow">We are</h5>
-            <div class="pr-lg-6 pr-md-8 pr-4">
-              <h1 class="text-white mb-4"  itemprop="headline">The Clever Industrial Business You Can Feel</h1>
-              <p class="lead text-silver mb-4">We take pleasure in introducing ourselves as professionally managed
-                Contracting &
-                Industrial supplies company operating in the Kingdom of Saudi Arabic. </p>
+    <!-- head title-->
+    <section class="container-fluid /px-0 home-bg bg-black-pearl">
+      <div class="py-lg-9 py-md-7 py-6">
+        <div class="container">
+          <div class="row gx-lg-5">
+            <div class="col-lg-6 d-lg-none">
+              <img loading="lazy"  loading="lazy" src="assets/images/home/h15.webp" alt="Aisha Muhammed Ibrahim Asili Foundation homr image"
+                itemprop="image">
             </div>
-            <div class="row gx-lg-0 pt-3 mb-lg-3">
-              <div class="col-lg-4 col-md-4 col-12">
-                <a class="btn btn-outline-white ripple" href="aboutus.html">Read more</a>
+            <div class="col-lg-6 my-lg-3 mt-md-5 mt-5">
+              <h5 class="text-school-yellow">We are</h5>
+              <div class="pr-lg-6 pr-md-8 pr-4">
+                <h1 class="text-white mb-4" itemprop="headline">The Clever Industrial Business You Can Feel</h1>
+                <p class="lead text-silver mb-4">We take pleasure in introducing ourselves as professionally managed
+                  Contracting &
+                  Industrial supplies company operating in the Kingdom of Saudi Arabic. </p>
               </div>
-              <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-md-0 mt-4">
-                <div class="ml-n28"><a class="btn btn-school-yellow ripple" href="#contactus">Contact us</a>
+              <div class="row gx-lg-0 pt-3 mb-lg-3">
+                <div class="col-lg-4 col-md-4 col-12">
+                  <a class="btn btn-outline-white ripple" href="aboutus.html" title="About Us">Know more</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 mt-lg-0 mt-md-0 mt-4">
+                  <div class="ml-n28"><a class="btn btn-school-yellow ripple" href="#contactus">Contact us</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- About us-->
-  <section class="bg-white-smoke" id="aboutus">
-    <div class="pt-lg-9 pb-lg-7 pt-md-7 pb-md-7 pt-6 pb-6">
-      <div class="container">
-        <div class="row gx-lg-5">
-          <div class="col-lg-7 mt-lg-6">
-            <div class="pr-lg-7">
-              <h5 class="text-school-yellow">About Us</h5>
-              <h1 class="mb-4"> Your Trusted Partner in Steel Fabrication, Maintenance, and Beyond!</h1>
-              <p class="text-dim-gray lead-1">Aisha Muhammed Ibrahim Asili Foundation Industrial Services operates from
-                Jubail city as a rapidly expanding organization.
-                <a class=" h6 btn-link-2 hover-underline-animation" href="aboutus.html">Know more..</a>
-              </p>
-            </div>
-            <div class="container p-0">
-              <div class="row gx-lg-5">
-                <div class="col-lg-5 pt-lg-10 pt-md-5 pt-4">
-                  <div class="mt-lg-9">
-                    <div class="pt-3"><img src="assets/images/about-us/about2.jpg"
-                        alt="Aisha Muhammed Ibrahim Asili Foundation about-us 2"></div>
-                  </div>
-                </div>
-                <div class="col-lg-7 mt-5 pt-1"><img src="assets/images/about-us/about1.jpg"
-                    alt="Aisha Muhammed Ibrahim Asili Foundation about-us 1"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-5 mt-lg-2 mt-md-5 mt-5"><img src="assets/images/about-us/about3.jpg"
-              alt="Aisha Muhammed Ibrahim Asili Foundation about-us 3">
-            <div class="mt-5"><img src="assets/images/about-us/about4.jpg"
-                alt="Aisha Muhammed Ibrahim Asili Foundation about-us 4"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-
-  <!-- Services -->
-  <section class="bg-black-pearl home-bg-1" id="services">
-    <div class="py-lg-8 py-md-8 py-7">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="mt-lg-n2">
-              <h1 class="mb-4 text-white">Our Services</h1>
-              <p class=" text-silver mt-n1 mb-0">We take pleasure in introducing ourselves as a
-                professionally managed contracting and industrial supplies company operating in the Kingdom of
-                Saudi Arabia. We are a multidisciplinary team of professionals that work in coordination to
-                channel our efforts in the best way possible to position, consolidate, and maintain our
-                corporate image and prestige. We provide the following services:</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="container my-lg-9 my-md-8 my-7">
-    <div class="row gx-lg-5">
-      <div class="col-lg-4">
-        <div class="bg-white-smoke px-4 py-5">
-          <div class="mx-3"><i class="mb-4 h1 display-4 fas fa-charging-station text-aluminium"></i>
-            <div class="pt-3">
-              <h4 class="mb-3">Manpower Supply</h4>
-            </div>
-            <div class="pt-2 pb-3">
-              <p>Industrial Services, is a rapidly expanding organization offering a wide range of engineering
-                and technical support in the field of construction, maintenance, and manpower supply services.
-              </p>
-            </div><a class="mt-5 h6 btn-link hover-underline-animation" href="manpower_supply.html">Read
-              more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mt-lg-0 mt-md-5 mt-4">
-        <div class="bg-white-smoke px-4 py-5">
-          <div class="mx-3"><i class="mb-4 h1 display-4 fas fa-cog text-aluminium"></i>
-            <div class="pt-3">
-              <h4 class="mb-3">Materials Supply</h4>
-            </div>
-            <div class="pt-2 pb-3">
-              <p> Industrial Services, situated in Jubail, one of the world's largest industrial cities, aims to
-                be a proficient supplier meeting industrial and commercial needs for government and private
-                clients in Saudi Arabia.
-              </p>
-            </div><a class="mt-5 h6 btn-link hover-underline-animation" href="materials_supply.html">Read
-              more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mt-lg-0 mt-md-5 mt-4">
-        <div class="bg-white-smoke px-4 py-5">
-          <div class="mx-3"> <i class="mb-4 h1 display-4 fas fa-cogs text-aluminium"></i>
-            <div class="pt-3">
-              <h4 class="mb-3">Scaffolding Material Supply & Erection</h4>
-            </div>
-            <div class="pt-2 pb-3">
-              <p>
-                With over 4 years of experience, we provide competitive
-                rates and uphold the highest standards of work, such as decoration, roofing, and industrial
-                towers.</p>
-            </div><a class="mt-5 h6 btn-link hover-underline-animation" href="scaffolding.html">Read
-              more</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row gx-lg-5 mt-lg-5 mt-md-5 mt-4">
-      <div class="col-lg-4">
-        <div class="bg-white-smoke px-4 py-5">
-          <div class="mx-3"><i class="mb-4 h1 display-4 fas fa-code-branch text-aluminium"></i>
-            <div class="pt-3">
-              <h4 class="mb-3">Rental Of Machinery & Vehicles</h4>
-            </div>
-            <div class="pt-2 pb-3">
-              <p>For the past few years, we have been providing rental machinery and vehicle services to
-                renowned clients. These services are highly sought after in heavy-duty engineering industries.
-              </p>
-            </div><a class="mt-5 h6 btn-link hover-underline-animation" href="machinery_vehicles.html">Read
-              more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mt-lg-0 mt-md-5 mt-4">
-        <div class="bg-white-smoke px-4 py-5">
-          <div class="mx-3"><i class="mb-4 h1 display-4 fas fa-database text-aluminium"></i>
-            <div class="pt-3">
-              <h4 class="mb-3">Rental of Heavy Equipments</h4>
-            </div>
-            <div class="pt-2 pb-3">
-              <p>Specializing in Crane Hiring, Heavy Lifting, Transportation, and Heavy Equipment Rental, our
-                fleet includes 50+ Hydraulic Cranes (50 to 500 tons), diverse transport, and earth-moving
-                equipment for rent..</p>
-            </div><a class="mt-5 h6 btn-link hover-underline-animation" href="heavy_equipments.html">Read
-              more</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mt-lg-0 mt-md-5 mt-4">
-        <div class="bg-white-smoke px-4 py-5">
-          <div class="mx-3"><i class="mb-4 h1 display-4 fas fa-file-word text-aluminium"></i>
-            <div class="pt-3">
-              <h4 class="mb-3">Building Materials</h4>
-            </div>
-            <div class="pt-2 pb-3">
-              <p>We supply premium building materials for construction projects, ensuring quality and
-                durability. Our extensive range includes concrete, steel, bricks, and other essential materials,
-                meeting diverse construction needs.</p>
-            </div><a class="mt-5 h6 btn-link hover-underline-animation" href="building_materials.html">Read
-              more</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <section class="bg-black-pearl home-bg-2 ">
-    <div class="container">
-      <div class="py-lg-7 py-md-6 py-5">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="text-center">
-              <h4 class="mb-2 text-white text-dim-gray"> <!-- FAQs --> &nbsp;</h4>
-              <h1 class="text-white mb-0"><!-- Let's Crack Those Questions  -->&nbsp;</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Now for Tomorrow-->
-  <section class="bg-white-smoke" id="operation">
-    <div class="py-lg-8 py-md-8 py-7">
-      <div class="container">
-        <div class="row gx-lg-5">
-          <div class="col-lg-6 mb-lg-0 mb-md-5 mb-5">
-            <div class="container p-0">
-              <div class="row gx-lg-5">
-                <div class="col-lg-6">
-                  <div class="bg-black-pearl">
-                    <div class="px-4 py-4">
-                      <div class="px-2 py-4">
-                        <h2 class="text-school-yellow mb-4">Maintenance Expertise:</h2>
-                        <p class="lead-1 mt-n1 text-white">Our Maintenance services encompass a wide spectrum.</p>
-                        <p class="text-dark-gray mb-1">Addressing the needs of power plants, cement plants, chemical
-                          plants, and dairy plants, among others.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="bg-white mt-5">
-                    <div class="px-4 py-4">
-                      <div class="px-2 py-4">
-                        <h2 class="mb-4">Operations Leadership:</h2>
-                        <p class="text-black-pearl lead-1 mt-n1">As a leading Operation & Maintenance service
-                          provider
-                          for power stations in Saudi Arabia.</p>
-                        <p class="text-dim-gray mb-1">Maintenance services for various verticals, commissioning
-                          services for plants, and breakdown maintenance services for all equipment.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="bg-white mt-5">
-                    <div class="px-4 py-4">
-                      <div class="px-2 py-4">
-                        <h2 class="mb-4">Holistic O&M Solutions:</h2>
-                        <p class="text-black-pearl lead-1 mt-n1">Our O&M work package includes operation and
-                          maintenance services.</p>
-                        <p class="text-dim-gray mb-1">For all verticals, including commissioning and breakdown
-                          maintenance, ensuring equipment reliability.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="bg-school-yellow mt-5">
-                    <div class="px-4 py-4">
-                      <div class="px-2 py-4">
-                        <h2 class="mb-4">Commitment to Excellence:</h2>
-                        <p class="text-black-pearl lead-1 mt-n1">Our goal is to be a trusted partner, delivering
-                          holistic Operation and Maintenance solutions</p>
-                        <p class="text-dim-gray mb-1">Dedicated to operational excellence, we consistently enhance
-                          our
-                          services to meet evolving client needs. </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 my-auto pl-lg-6">
-            <div class="ml-n1">
-              <h2 class="h1 mb-0">Operation and </h2>
-              <h2 class="h1 mt-n1 mb-4">Maintenance Expertise</h2>
-              <div class="pr-lg-6">
-                <p class="lead text-black-pearl mb-4">We specialize in offering Operation and Maintenance (O&M)
-                  services primarily for power plants, cement plants, chemical plants, dairy plants, etc.
+    </section>
+    <!-- About us-->
+    <section class="bg-white-smoke" id="aboutus">
+      <div class="pt-lg-9 pb-lg-7 pt-md-7 pb-md-7 pt-6 pb-6">
+        <div class="container">
+          <div class="row gx-lg-5">
+            <div class="col-lg-7 mt-lg-6">
+              <div class="pr-lg-7">
+                <p class="text-school-black my-text text-20 btn-link ">About Us</p>
+                <h1 class="mb-4"> Your Trusted Partner in Steel Fabrication, Maintenance, and Beyond!</h1>
+                <p class="text-dim-gray lead-1">Aisha Muhammed Ibrahim Asili Foundation Industrial Services operates
+                  from
+                  Jubail city as a rapidly expanding organization.
+                  <a class=" h6 btn-link-2 hover-underline-animation" href="aboutus.html" title="About Us">Know
+                    more..</a>
                 </p>
               </div>
-              <p class="text-dim-gray">Expanding our services, we now cater to a diverse range, including coal, gas,
-                thermal, waste heat recovery boilers, co-generation plants, refineries, steel plants, chemical
-                plants,
-                dairy, cement plants, water softening plants, and turbine generators.</p>
-              <div class="pt-3">
-                <a class="btn btn-black-pearl" href="#aboutus">Learn more</a>
+              <div class="container p-0">
+                <div class="row gx-lg-5">
+                  <div class="col-lg-5 pt-lg-10 pt-md-5 pt-4">
+                    <div class="mt-lg-9">
+                      <div class="pt-3"><img loading="lazy" src="assets/images/about-us/about2.webp"
+                          alt="Aisha Muhammed Ibrahim Asili Foundation about-us 2"></div>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 mt-5 pt-1"><img loading="lazy" src="assets/images/about-us/about1.webp"
+                      alt="Aisha Muhammed Ibrahim Asili Foundation about-us 1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 mt-lg-2 mt-md-5 mt-5"><img loading="lazy" src="assets/images/about-us/about3.webp"
+                alt="Aisha Muhammed Ibrahim Asili Foundation about-us 3">
+              <div class="mt-5"><img loading="lazy" src="assets/images/about-us/about4.webp"
+                  alt="Aisha Muhammed Ibrahim Asili Foundation about-us 4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Services -->
+    <section class="bg-black-pearl home-bg-1" id="services">
+      <div class="py-lg-8 py-md-8 py-7">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="mt-lg-n2">
+                <h1 class="mb-4 text-white">Our Services</h1>
+                <p class=" text-silver mt-n1 mb-0">We take pleasure in introducing ourselves as a
+                  professionally managed contracting and industrial supplies company operating in the Kingdom of
+                  Saudi Arabia. We are a multidisciplinary team of professionals that work in coordination to
+                  channel our efforts in the best way possible to position, consolidate, and maintain our
+                  corporate image and prestige. We provide the following services:</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="bg-black-pearl" id="contactus">
-    <div class="container">
-      <div class="py-lg-7 py-md-6 py-5">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="text-center">
-              <h4 class="mb-2 text-white text-dim-gray">Contact Us</h4>
-              <h1 class="text-white mb-0">Still no luck? We can help!</h1>
+    </section>
+    <div class="container my-lg-9 my-md-8 my-7">
+      <div class="row gx-lg-5">
+        <div class="col-lg-4">
+          <div class="bg-white-smoke px-4 py-5">
+            <div class="mx-3"><i class="mb-4 h1 display-4 fas fa-charging-station text-aluminium"></i>
+              <div class="pt-3">
+                <div class="mb-3 my-text text-24">Manpower Supply</div>
+              </div>
+              <div class="pt-2 pb-3">
+                <p>Industrial Services, is a rapidly expanding organization offering a wide range of engineering
+                  and technical support in the field of construction, maintenance, and manpower supply services.
+                </p>
+              </div><a class="mt-5 h6 btn-link hover-underline-animation" href="/manpower_supply.html"
+                title="Manpower Supply">Know
+                more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-0 mt-md-5 mt-4">
+          <div class="bg-white-smoke px-4 py-5">
+            <div class="mx-3"><i class="mb-4 h1 display-4 fas fa-cog text-aluminium"></i>
+              <div class="pt-3">
+                <div class="mb-3 my-text text-24">Materials Supply</div>
+              </div>
+              <div class="pt-2 pb-3">
+                <p> Industrial Services, situated in Jubail, one of the world's largest industrial cities, aims to
+                  be a proficient supplier meeting industrial and commercial needs for government and private
+                  clients in Saudi Arabia.
+                </p>
+              </div><a class="mt-5 h6 btn-link hover-underline-animation" href="materials_supply.html"
+                title="Materials Supply">Know
+                more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-0 mt-md-5 mt-4">
+          <div class="bg-white-smoke px-4 py-5">
+            <div class="mx-3"> <i class="mb-4 h1 display-4 fas fa-cogs text-aluminium"></i>
+              <div class="pt-3">
+                <div class="mb-3 my-text text-24">Scaffolding Material Supply & Erection</div>
+              </div>
+              <div class="pt-2 pb-3">
+                <p>
+                  With over 4 years of experience, we provide competitive
+                  rates and uphold the highest standards of work, such as decoration, roofing, and industrial
+                  towers.</p>
+              </div><a class="mt-5 h6 btn-link hover-underline-animation" href="/scaffolding.html"
+                title="Scaffolding Services">Know
+                more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gx-lg-5 mt-lg-5 mt-md-5 mt-4">
+        <div class="col-lg-4">
+          <div class="bg-white-smoke px-4 py-5">
+            <div class="mx-3"><i class="mb-4 h1 display-4 fas fa-code-branch text-aluminium"></i>
+              <div class="pt-3">
+                <div class="mb-3 my-text text-24">Rental Of Machinery & Vehicles</div>
+              </div>
+              <div class="pt-2 pb-3">
+                <p>For the past few years, we have been providing rental machinery and vehicle services to
+                  renowned clients. These services are highly sought after in heavy-duty engineering industries.
+                </p>
+              </div><a class="mt-5 h6 btn-link hover-underline-animation" href="/machinery_vehicles.html"
+                title="Machinery and Vehicles">Know
+                more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-0 mt-md-5 mt-4">
+          <div class="bg-white-smoke px-4 py-5">
+            <div class="mx-3"><i class="mb-4 h1 display-4 fas fa-database text-aluminium"></i>
+              <div class="pt-3">
+                <div class="mb-3 my-text text-24">Rental of Heavy Equipments</div>
+              </div>
+              <div class="pt-2 pb-3">
+                <p>Specializing in Crane Hiring, Heavy Lifting, Transportation, and Heavy Equipment Rental, our
+                  fleet includes 50+ Hydraulic Cranes (50 to 500 tons), diverse transport, and earth-moving
+                  equipment for rent..</p>
+              </div><a class="mt-5 h6 btn-link hover-underline-animation" href="/heavy_equipments.html"
+                title="Heavy Equipments">Know
+                more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-lg-0 mt-md-5 mt-4">
+          <div class="bg-white-smoke px-4 py-5">
+            <div class="mx-3"><i class="mb-4 h1 display-4 fas fa-file-word text-aluminium"></i>
+              <div class="pt-3">
+                <div class="mb-3 my-text text-24">Building Materials</div>
+              </div>
+              <div class="pt-2 pb-3">
+                <p>We supply premium building materials for construction projects, ensuring quality and
+                  durability. Our extensive range includes concrete, steel, bricks, and other essential materials,
+                  meeting diverse construction needs.</p>
+              </div><a class="mt-5 h6 btn-link hover-underline-animation" href="/building_materials.html"
+                title="Building Materials">Know
+                more</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- contact form-->
-  <section class="container-fluid px-0">
-    <div class="pt-lg-9">
-        <div class="container">
-            <div class="row gx-lg-5">
-                <div class="col-lg-6 mt-lg-0 mt-md-5 mt-5 ">
-                    <iframe class="pr-lg-5 pb-lg-7 pb-md-0 pb-5s"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.244564105949!2d49.6597681104174!3d26.990812376503104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e35a1b2c2895ca1%3A0xd217755ae2c6773!2s101%20Business%20Tower%2C%20King%20Abdul%20Aziz%20Rd%2C%20Jubail%20City%20Center%2C%20Al%20Jubayl%2035513%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1708774721359!5m2!1sen!2sin"
-                         style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                    <!-- <img src="assets/images/home/test11.jpg" alt="Aisha Muhammed Ibrahim Asili Foundation contact image"> -->
-                </div>
-                <div class="col-lg-6 mt-lg-0 mt-md-5 mt-5">
-                    <h1 class="mb-4">We're here to help</h1>
-                    <p class="lead-1 text-dim-gray">Fill out the form or call +966 0547753896</p>
-                    <!-- form-->
-                    <div class="pr-lg-5 pt-lg-5 pb-lg-7 pt-md-5 pb-md-0 pt-5 pb-5">
-                        <form id="contact-us-form" method="post">
-                            <div class="mb-4 pb-2">
-                                <input class="form-control input-border border-bottom border-1 border-black-pearl"
-                                    id="form_firstname" type="text" name="fname" placeholder="Name" required>
-                            </div>
-                            <div class="mb-4 pb-2">
-                                <input class="form-control input-border border-bottom border-1 border-black-pearl"
-                                    id="form_email" type="text" name="lname" placeholder="Email" required>
-                            </div>
-                            <div class="mb-4 pb-2">
-                                <input class="form-control input-border border-bottom border-1 border-black-pearl"
-                                    id="subject" type="text" name="subject" placeholder="Subject">
-                            </div>
-                            <div class="mb-4 pb-2">
-                                <textarea
-                                    class="form-control input-border border-bottom border-1 border-black-pearl"
-                                    id="form_message" name="message" placeholder="Message" rows="5"
-                                    required></textarea>
-                            </div>
-                            <div class="mb-4"> <a class="btn btn-black-pearl" href="#">Submit</a></div>
-                        </form>
-                    </div>
-
-                </div>
+    <section class="bg-black-pearl home-bg-2 ">
+      <div class="container">
+        <div class="py-lg-7 py-md-6 py-5">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="text-center">
+                <div class="mb-2 text-white text-dim-gray my-text text-24"> <!-- FAQs --> &nbsp;</div>
+                <h1 class="text-white mb-0"><!-- Let's Crack Those Questions  -->&nbsp;</h1>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Now for Tomorrow-->
+    <section class="bg-white-smoke" id="operation">
+      <div class="py-lg-8 py-md-8 py-7">
+        <div class="container">
+          <div class="row gx-lg-5">
+            <div class="col-lg-6 mb-lg-0 mb-md-5 mb-5">
+              <div class="container p-0">
+                <div class="row gx-lg-5">
+                  <div class="col-lg-6">
+                    <div class="bg-black-pearl">
+                      <div class="px-4 py-4">
+                        <div class="px-2 py-4">
+                          <h2 class="text-school-yellow mb-4">Maintenance Expertise:</h2>
+                          <p class="lead-1 mt-n1 text-white">Our Maintenance services encompass a wide spectrum.</p>
+                          <p class="text-dark-gray mb-1">Addressing the needs of power plants, cement plants, chemical
+                            plants, and dairy plants, among others.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bg-white mt-5">
+                      <div class="px-4 py-4">
+                        <div class="px-2 py-4">
+                          <h2 class="mb-4">Operations Leadership:</h2>
+                          <p class="text-black-pearl lead-1 mt-n1">As a leading Operation & Maintenance service
+                            provider
+                            for power stations in Saudi Arabia.</p>
+                          <p class="text-dim-gray mb-1">Maintenance services for various verticals, commissioning
+                            services for plants, and breakdown maintenance services for all equipment.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="bg-white mt-5">
+                      <div class="px-4 py-4">
+                        <div class="px-2 py-4">
+                          <h2 class="mb-4">Holistic O&M Solutions:</h2>
+                          <p class="text-black-pearl lead-1 mt-n1">Our O&M work package includes operation and
+                            maintenance services.</p>
+                          <p class="text-dim-gray mb-1">For all verticals, including commissioning and breakdown
+                            maintenance, ensuring equipment reliability.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="bg-school-yellow mt-5">
+                      <div class="px-4 py-4">
+                        <div class="px-2 py-4">
+                          <h2 class="mb-4">Commitment to Excellence:</h2>
+                          <p class="text-black-pearl lead-1 mt-n1">Our goal is to be a trusted partner, delivering
+                            holistic Operation and Maintenance solutions</p>
+                          <p class="text-dim-gray mb-1">Dedicated to operational excellence, we consistently enhance
+                            our
+                            services to meet evolving client needs. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 my-auto pl-lg-6">
+              <div class="ml-n1">
+                <h2 class="h1 mb-0">Operation and </h2>
+                <h2 class="h1 mt-n1 mb-4">Maintenance Expertise</h2>
+                <div class="pr-lg-6">
+                  <p class="lead text-black-pearl mb-4">We specialize in offering Operation and Maintenance (O&M)
+                    services primarily for power plants, cement plants, chemical plants, dairy plants, etc.
+                  </p>
+                </div>
+                <p class="text-dim-gray">Expanding our services, we now cater to a diverse range, including coal, gas,
+                  thermal, waste heat recovery boilers, co-generation plants, refineries, steel plants, chemical
+                  plants,
+                  dairy, cement plants, water softening plants, and turbine generators.</p>
+                <div class="pt-3">
+                  <a class="btn btn-black-pearl" href="#aboutus">Know more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black-pearl" id="contactus">
+      <div class="container">
+        <div class="py-lg-7 py-md-6 py-5">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="text-center">
+                <div class="mb-2 text-dark-gray my-text text-24">Contact Us</div>
+                <h1 class="text-white mb-0">Still no luck? We can help!</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact form-->
+    <section class="container-fluid px-0">
+      <div class="pt-lg-9">
+        <div class="container">
+          <div class="row gx-lg-5">
+            <div class="col-lg-6 mt-lg-0 mt-md-5 mt-5 ">
+              <iframe class="pr-lg-5 pb-lg-7 pb-md-0 pb-5s" title="AMIAF Map" loading="lazy" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.244564105949!2d49.6597681104174!3d26.990812376503104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e35a1b2c2895ca1%3A0xd217755ae2c6773!2s101%20Business%20Tower%2C%20King%20Abdul%20Aziz%20Rd%2C%20Jubail%20City%20Center%2C%20Al%20Jubayl%2035513%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1708774721359!5m2!1sen!2sin"
+                style="border:0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+              <!-- <img loading="lazy" src="assets/images/home/test11.webp" alt="Aisha Muhammed Ibrahim Asili Foundation contact image"> -->
+            </div>
+            <div class="col-lg-6 mt-lg-0 mt-md-5 mt-5">
+              <h1 class="mb-4">We're here to help</h1>
+              <p class="lead-1 text-dim-gray">Fill out the form or call +966 0547753896</p>
+              <!-- form-->
+              <div class="pr-lg-5 pt-lg-5 pb-lg-7 pt-md-5 pb-md-0 pt-5 pb-5">
+                <form id="contact-us-form" method="post">
+                  <div class="mb-4 pb-2">
+                    <input class="form-control input-border border-bottom border-1 border-black-pearl"
+                      id="form_firstname" type="text" name="fname" placeholder="Name" required>
+                  </div>
+                  <div class="mb-4 pb-2">
+                    <input class="form-control input-border border-bottom border-1 border-black-pearl" id="form_email"
+                      type="text" name="lname" placeholder="Email" required>
+                  </div>
+                  <div class="mb-4 pb-2">
+                    <input class="form-control input-border border-bottom border-1 border-black-pearl" id="subject"
+                      type="text" name="subject" placeholder="Subject">
+                  </div>
+                  <div class="mb-4 pb-2">
+                    <textarea class="form-control input-border border-bottom border-1 border-black-pearl"
+                      id="form_message" name="message" placeholder="Message" rows="5" required></textarea>
+                  </div>
+                  <div class="mb-4"> <a class="btn btn-black-pearl" href="#" title="AMIAF">Submit</a></div>
+                </form>
+              </div>
+
+            </div>
+          </div>
 
         </div>
-    </div>
-</section>
+      </div>
+    </section>
   </article>
-  <footer class="site-footer"  itemscope itemtype="https://schema.org/WPFooter">
+  <footer class="site-footer" itemscope itemtype="https://schema.org/WPFooter">
     <div class="footer-widgets">
       <div class="container">
         <div class="row gx-lg-5">
           <div class="col-lg-12">
             <div class="footer-widget footer-widget-1 text-center">
-              <a class="navbar-brand" href="#">
-                <img src="assets/images/logo/AMIAF logo.png" class="attachment-full size-full AMIAF_logo"
+              <a class="navbar-brand" href="#" title="AMIAF">
+                <img loading="lazy" src="assets/images/logo/AMIAF logo.png" class="attachment-full size-full AMIAF_logo"
                   alt="Aisha Muhammed Ibrahim Asili Foundation AMIAF logo" loading="lazy">
               </a>
             </div>
@@ -475,20 +490,21 @@
           <div class="col-lg-12 col-md-6">
             <div class="text-center">
               <ul class="list-unstyled list-inlinetrue">
-                <li class="list-inline-item border-padding border border-1 rounded-circle mr-4"><a href="#"><i
-                      class="fab fa-linkedin-in icon"></i></a></li>
-                <li class="list-inline-item border-padding border border-1 rounded-circle mr-4"><a href="#"><i
-                      class="fab fa-facebook-square icon"></i></a></li>
-                <li class="list-inline-item border-padding border border-1 rounded-circle mr-4"><a href="#"><i
-                      class="fab fa-twitter icon"></i></a></li>
-                <li class="list-inline-item border-padding border border-1 rounded-circle mr-4"><a href="#"><i
-                      class="fab fa-instagram icon"></i></a></li>
+                <li class="list-inline-item border-padding border border-1 rounded-circle mr-4"><a href="#"
+                    title="AMIAF"><i class="fab fa-linkedin-in icon"></i></a></li>
+                <li class="list-inline-item border-padding border border-1 rounded-circle mr-4"><a href="#"
+                    title="AMIAF"><i class="fab fa-facebook-square icon"></i></a></li>
+                <li class="list-inline-item border-padding border border-1 rounded-circle mr-4"><a href="#"
+                    title="AMIAF"><i class="fab fa-twitter icon"></i></a></li>
+                <li class="list-inline-item border-padding border border-1 rounded-circle mr-4"><a href="#"
+                    title="AMIAF"><i class="fab fa-instagram icon"></i></a></li>
               </ul>
             </div>
           </div>
           <div class="col-lg-12 col-md-6">
             <div class="footer-widget text-center">
-              <p class="m-md-0">© 2024 <a href="#" class="btn-link-1">Aisha Muhammed Ibrahim Asili Foundation</a> • All
+              <p class="m-md-0">© 2024 <a href="#" title="AMIAF" class="btn-link-1">Aisha Muhammed Ibrahim Asili
+                  Foundation</a> • All
                 Rights Reserved</p>
             </div>
           </div>

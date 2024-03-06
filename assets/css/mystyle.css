@@ -45,3 +45,18 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
+
+  .my-text {
+     margin-top: 0;
+     margin-bottom: .5rem;
+     font-family: "Mulish";
+     font-weight: 800;
+     line-height: 1.4;
+     color: #1c1d1e
+  }
+  .text-20 {
+     font-size: 20px;
+  }
+  .text-24 {
+     font-size: 24px;
+  }

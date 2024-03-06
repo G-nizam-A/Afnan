@@ -11384,6 +11384,9 @@ fieldset:disabled .btn {
 .text-school-yellow {
     color: #ffda00 !important
 }
+.text-school-black {
+    color: #000 !important
+}
 
 .text-white {
     color: #fff !important
@@ -11394,7 +11397,7 @@ fieldset:disabled .btn {
 }
 
 .text-dim-gray {
-    color: #747474 !important
+    color: #424242 !important
 }
 
 .text-silver {
@@ -11512,7 +11515,7 @@ fieldset:disabled .btn {
 }
 
 .bg-white-smoke {
-    background-color: #f4f4f4 !important
+    background-color: #fff !important
 }
 
 .bg-dim-gray {
